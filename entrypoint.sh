@@ -37,8 +37,7 @@ if [[ "${INPUT_REPORTER}" = 'github-pr-review' ]]; then
     -f.diff.strip=0 \
     -name="${INPUT_TOOL_NAME}" \
     -reporter="github-pr-review" \
-    -filter-mode="nofilter
-    " \
+    -filter-mode="nofilter" \
     -level="${INPUT_LEVEL}" \
     -fail-on-error="${INPUT_FAIL_ON_ERROR}" \
     ${INPUT_REVIEWDOG_FLAGS} || reviewdog_exit_val="$?"
