@@ -1,6 +1,6 @@
-name: "Run black formatter with reviewdog"
+name: "Run black formatter with reviewdog with custom filters"
 description: "🐶 Run black formatter with reviewdog on pull requests to improve code review experience."
-author: "Rick Staa"
+author: "Soham Kulkarni"
 inputs:
   workdir:
     description: "Working directory relative to the root directory."
